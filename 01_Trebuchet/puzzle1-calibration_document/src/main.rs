@@ -1,7 +1,7 @@
 use std::{fs};
 
 // Path to input file
-const DATA_PATH: &str = "../data/1_calibration_document.txt";
+const DATA_PATH: &str = "../data/calibration_document.txt";
 
 
 // Function to extract first and last digit from string
