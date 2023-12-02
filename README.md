@@ -11,7 +11,7 @@ Useful links:
 
 ## Puzzles of 2023
 1. [Trebuchet](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/01_Trebuchet)
-2. [Cube Conundrum](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/02_Conundrum)
+2. [Cube Conundrum](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/02_Cube_Conundrum)
 
 ## Notes
 Feel freel to ask any questions through [LinkedIn](https://linkedin.com/in/dennisbakhuis)!
