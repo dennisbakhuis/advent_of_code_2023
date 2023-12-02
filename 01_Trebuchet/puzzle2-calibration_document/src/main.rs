@@ -3,7 +3,7 @@ use std::collections::VecDeque;
 
 
 // Path to input file
-const DATA_PATH: &str = "../data/calibration_document.txt";
+const DATA_PATH: &str = "../../data/01_calibration_document.txt";
 
 // Digit values
 const DIGIT_VALUES: [(&str, char); 9] = [
