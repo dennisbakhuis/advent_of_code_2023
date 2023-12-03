@@ -10,8 +10,9 @@ Useful links:
 - [My LinkedIn profile](https://linkedin.com/in/dennisbakhuis)
 
 ## Puzzles of 2023
-1. [Trebuchet](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/01_Trebuchet)
-2. [Cube Conundrum](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/02_Cube_Conundrum)
+1. [Trebuchet](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/01_trebuchet)
+2. [Cube Conundrum](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/02_cube_conundrum)
+3. [Gear Ratios](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/03_gear_ratios)
 
 ## Notes
 Feel freel to ask any questions through [LinkedIn](https://linkedin.com/in/dennisbakhuis)!
