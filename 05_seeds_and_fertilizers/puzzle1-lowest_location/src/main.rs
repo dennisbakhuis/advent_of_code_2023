@@ -1,4 +1,3 @@
-use std::collections::HashMap;
 use regex::Regex;
 
 // test data
@@ -22,29 +21,27 @@ fn main() {
         .next()
         .unwrap();
     let re = Regex::new(r"\d+").unwrap();
-    let seeds: Vec<u32> = re.find_iter(first_line)
+    let seeds: Vec<i64> = re.find_iter(first_line)
         .filter_map(|digits| digits.as_str().parse().ok())
         .collect();
 
-    println!("seeds: {:?}", seeds);
-
     // extract all maps
-    let mut maps: Vec<HashMap<u32, u32>> = Vec::new();
+    let mut tuple_sets: Vec<Vec<(i64, i64, i64)>> = Vec::new();
     while let Some(map_data) = input_data.next() {
         if map_data.is_empty() {
             continue;
         }
 
         // convert map_data to lines and only select lines starting with numbers
-        let map_lines: Vec<&str> = map_data.lines()
+        let range_lines: Vec<&str> = map_data.lines()
             .filter(|line| line.starts_with(char::is_numeric))
             .collect();
 
         // iterate over map_lines and extract the map data
-        let mut map: HashMap<u32, u32> = HashMap::new();
+        let mut tuples: Vec<(i64, i64, i64)> = Vec::new();
 
-        for map_line in map_lines {
-            let map_line: Vec<u32> = map_line.split_whitespace()
+        for range_line in range_lines {
+            let map_line: Vec<i64> = range_line.split_whitespace()
                 .filter_map(|digits| digits.parse().ok())
                 .collect();
 
@@ -53,33 +50,34 @@ fn main() {
             let source_start = map_line[1];
             let range = map_line[2];
 
-            // create map
-            for i in 0..range {
-                map.insert(source_start + i, destination_start + i);
-            }
+            tuples.push((source_start, destination_start, range));
         }
 
         // store map
-        maps.push(map);
+        tuple_sets.push(tuples);
     }
 
-    // apply maps to seeds
+    // Move seeds through all ranges
     let mut source = seeds.clone();
 
-    for map in maps {
-        println!("step...");
+    for tuples in tuple_sets {
+        let mut destination: Vec<i64> = Vec::new();
 
-        let mut destination: Vec<u32> = Vec::new();
         for src in source.iter() {
             let mut destination_value = *src;
-            if let Some(new_seed) = map.get(&(*src)) {
-                destination_value = *new_seed as u32;
+
+            // check if src is in ranges
+            for (source_start, destination_start, range) in tuples.iter() {
+                if *source_start <= *src && *src < *source_start + *range {
+                    destination_value = *destination_start + (*src - *source_start);
+                    break;
+                }
             }
+
             destination.push(destination_value);
         }
         source = destination;
     }
 
-    println!("Final seeds: {:?}", source);
     println!("Minimum seed: {}", source.iter().min().unwrap());
 }

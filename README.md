@@ -14,6 +14,7 @@ Useful links:
 2. [Cube Conundrum](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/02_cube_conundrum)
 3. [Gear Ratios](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/03_gear_ratios)
 4. [Scratchcards](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/04_scratchcards)
+5. [Seeds & Fertilizers](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/05_seeds_fertilizers)
 
 ## Notes
 Feel freel to ask any questions through [LinkedIn](https://linkedin.com/in/dennisbakhuis)!
