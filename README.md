@@ -15,6 +15,7 @@ Useful links:
 3. [Gear Ratios](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/03_gear_ratios)
 4. [Scratchcards](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/04_scratchcards)
 5. [Seeds & Fertilizers](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/05_seeds_fertilizers)
+6. [Boat races](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/06_boat_races)
 
 ## Notes
 Feel freel to ask any questions through [LinkedIn](https://linkedin.com/in/dennisbakhuis)!
