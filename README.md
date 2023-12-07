@@ -11,11 +11,12 @@ Useful links:
 
 ## Puzzles of 2023
 1. [Trebuchet](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/01_trebuchet)
-2. [Cube Conundrum](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/02_cube_conundrum)
-3. [Gear Ratios](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/03_gear_ratios)
+2. [Cube conundrum](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/02_cube_conundrum)
+3. [Gear ratios](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/03_gear_ratios)
 4. [Scratchcards](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/04_scratchcards)
-5. [Seeds & Fertilizers](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/05_seeds_fertilizers)
+5. [Seeds & fertilizers](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/05_seeds_fertilizers)
 6. [Boat races](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/06_boat_races)
+7. [Camel poker](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/07_camel_cards)
 
 ## Notes
 Feel freel to ask any questions through [LinkedIn](https://linkedin.com/in/dennisbakhuis)!

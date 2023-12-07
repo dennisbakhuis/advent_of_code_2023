@@ -1,0 +1,4 @@
+[package]
+name = "puzzle2-camel_poker_with_jokers"
+version = "0.1.0"
+edition = "2021"

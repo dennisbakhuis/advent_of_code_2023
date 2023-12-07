@@ -1,0 +1,4 @@
+[package]
+name = "puzzle1-camel_poker_hands"
+version = "0.1.0"
+edition = "2021"
