@@ -17,6 +17,7 @@ Useful links:
 5. [Seeds & fertilizers](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/05_seeds_fertilizers)
 6. [Boat races](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/06_boat_races)
 7. [Camel poker](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/07_camel_cards)
+8. [Haunted wasteland](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/08_haunted_wasteland)
 
 ## Notes
 Feel freel to ask any questions through [LinkedIn](https://linkedin.com/in/dennisbakhuis)!
