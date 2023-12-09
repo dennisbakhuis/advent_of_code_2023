@@ -1,4 +1,4 @@
-# Day 8: Mirage Maintenance
+# Day 9: Mirage Maintenance
 We found a way out of the desert and got to an Oasis. The way to the next stop
 is clearly visible, a floating island above this one but we need to wait until
 the sun comes up. To kill some time, we are looking at our OASIS measurement
