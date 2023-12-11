@@ -20,6 +20,7 @@ Useful links:
 8. [Haunted wasteland](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/08_haunted_wasteland)
 9. [Mirage maintenance](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/09_mirage_maintenance)
 10. [Pipe maze](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/10_pipe_maze)
+11. [Pipe maze](https://github.com/dennisbakhuis/advent_of_code_2023/tree/main/11_cosmic_expansion)
 
 ## Notes
 Feel freel to ask any questions through [LinkedIn](https://linkedin.com/in/dennisbakhuis)!
